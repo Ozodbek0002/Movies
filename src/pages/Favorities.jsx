@@ -23,6 +23,7 @@ function Favorities() {
       <h2>Your Favorites list is empty...</h2>
       <p>Add items to your favorites to see them here....</p>
       <p>Test uchun</p>
+      <p>Javohir</p>
     </div>
   );
 }
