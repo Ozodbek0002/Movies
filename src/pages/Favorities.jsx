@@ -5,7 +5,6 @@ import MovieCard from "../components/MovieCard";
 function Favorities() {
   const { favorites } = useMovieContext();
 
-
   if (favorites.length > 0) {
     return (
       <div className="favorites">
@@ -20,7 +19,7 @@ function Favorities() {
   }
 
   return (
-    <div className="favorities-empty">
+    <div className="favorites-empty">
       <h2>Your Favorites list is empty...</h2>
       <p>Add items to your favorites to see them here....</p>
     </div>
