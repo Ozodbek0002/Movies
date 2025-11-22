@@ -13,6 +13,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/favorities" element={<Favorities />} />
+          <Route path="*" element={<h1>404 Not Found</h1>} />
+          <Route path="/contact" element={<h1>contact</h1>} />
+          <Route path="/about" element={<h1>about</h1>} />
+          <Route path="/signup" element={<h1>signup</h1>} />
         </Routes>
       </main>
     </MovieProvider>

@@ -25,7 +25,19 @@
 }
 
 .nav-link:hover {
+  cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
+}
+.nav-link.active {
+  cursor: pointer;
+  background-color: rgba(255, 265, 255, 0.1);
+  color: #ffffff;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
 }
 
 @media (max-width: 768px) {
