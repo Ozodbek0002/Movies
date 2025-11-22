@@ -5,6 +5,7 @@ import { User } from "lucide-react";
 
 function NavBar() {
   return (
+    
     <nav className="navbar">
       <div className="navbar-brand">
         <NavLink to="/">
