@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../css/MovieCard.css";
 import { useMovieContext } from "./context/MovieContext";
 
@@ -34,6 +35,11 @@ function MovieCard({ movie }) {
       <div className="movie-info">
         <h3>{movie.title}</h3>
         <p>{movie.release_date?.split("-")[0]}</p>
+        <Link to={`/watch/${movie.id}`}>
+          <button className="watch" onClick={`/${movie.title}`}>
+            Watch
+          </button>
+        </Link>
       </div>
     </div>
   );
