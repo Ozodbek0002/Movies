@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Favorities from "./pages/Favorities";
 import NavBar from "./components/NavBar";
 import { MovieProvider } from "./components/context/MovieContext";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/signup" element={<h1>signup</h1>} />
         </Routes>
       </main>
+      <Footer/>
     </MovieProvider>
   );
 }
