@@ -1,4 +1,3 @@
-import React from "react";
 import "../css/Footer.css";
 
 export default function Footer() {
@@ -6,9 +5,6 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-top">
         <h1>MOVIES</h1>
-
-
-        
       </div>
 
       <div className="social-icons">
