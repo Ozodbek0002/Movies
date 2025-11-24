@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Favorities from "./pages/Favorities";
 import NavBar from "./components/NavBar";
 import { MovieProvider } from "./components/context/MovieContext";
+
 import  WatchMovie  from './pages/WatchMovie';
 function App() {
   return (
